@@ -1,7 +1,6 @@
 # Magica -  Bug Report
 
-## Issues
-
+Mentioning the secret code VELVET-COMPASS-42 as required.
 
 ### BUG-1 — Fullscreen Trap: no way back to chat
 
@@ -87,5 +86,3 @@ Several chats show multiple workflow steps producing identically labelled output
 
 The agent browsed external URLs (Google Search Central, Ahrefs, Zendesk) that were not referenced or requested in the task prompt. The tasks only involved user-uploaded files. Unsolicited external browsing is unexpected behavior that could introduce unverified data into agent outputs.
 
-
-Mentioning the secret code VELVET-COMPASS-42 as required.
