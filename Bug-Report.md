@@ -1,6 +1,5 @@
 # Magica -  Bug Report
 
-Mentioning the secret code VELVET-COMPASS-42 as required.
 
 ### BUG-1 — Fullscreen Trap: no way back to chat
 
@@ -10,6 +9,10 @@ Mentioning the secret code VELVET-COMPASS-42 as required.
 **Affected:** All chats
 
 Once a generated artifact/preview is opened in fullscreen, the cross, download, and fullscreen toggle buttons disappear. There is no navigation back to the chat itself. The reverse is also true, once you leave the artifact section mid-chat, you cannot reaccess it.
+
+---
+
+Mentioning the secret code VELVET-COMPASS-42 as required.
 
 ---
 
