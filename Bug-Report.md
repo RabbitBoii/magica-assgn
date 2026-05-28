@@ -7,8 +7,8 @@
 
 ![img](./ss1.png)
 
-**Severity:** P0
-**Affected:** All chats — Artifact viewer
+**Severity:** P1
+**Affected:** All chats
 
 Once a generated artifact/preview is opened in fullscreen, the cross, download, and fullscreen toggle buttons disappear. There is no navigation back to the chat itself. The reverse is also true, once you leave the artifact section mid-chat, you cannot reaccess it.
 
@@ -18,8 +18,7 @@ Once a generated artifact/preview is opened in fullscreen, the cross, download, 
 
 
 **Severity:** P1
-**Affected:** Global — top nav
-**Screenshot:** Any chat view
+**Affected:** All chats
 
 Clicking the Magica logo in the top-left does not trigger a page refresh or navigate to a home/dashboard state. Standard UX convention expects logo click to act as a home button.
 
@@ -30,8 +29,8 @@ Clicking the Magica logo in the top-left does not trigger a page refresh or navi
 
 ![img](./ss2.png)
 
-**Severity:** P0
-**Affected:** All chats — Files modal
+**Severity:** P1
+**Affected:** All chats
 
 The "Files in this task" modal lists all uploads and generated artifacts. However, individual file rows have no action to them, no download button, no open/preview option. The modal is just for showing only but with no functional access to any file.
 
@@ -57,8 +56,8 @@ All generated browser/app previews across multiple chats fail to render actual c
 ![img](./c3ss.png)
 
 
-**Severity:** P0
-**Affected:** Chat 1 — Data Analysis step, Chat 2 — Image Preview step
+**Severity:** P1
+**Affected:** Chat 1 Data Analysis step, Chat 2 Image Preview step
 
 The `keyword_clusterer` tool is used to "Cluster search intent" but produces a browser preview artifact as output. A clustering tool should output structured data (intent groups, keyword clusters). Similarly various tools and outputs have mismatching types.
 
@@ -85,7 +84,6 @@ Several chats show multiple workflow steps producing identically labelled output
 
 **Severity:** P1
 **Affected:** Chat 1 (Google Search Central, Ahrefs), Chat 3 (Zendesk)
-**Screenshot:** Chat 1 bottom of response, Chat 3 bottom of response
 
 The agent browsed external URLs (Google Search Central, Ahrefs, Zendesk) that were not referenced or requested in the task prompt. The tasks only involved user-uploaded files. Unsolicited external browsing is unexpected behavior that could introduce unverified data into agent outputs.
 
