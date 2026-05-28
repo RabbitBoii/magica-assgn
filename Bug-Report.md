@@ -1,4 +1,4 @@
-# Magica Agent Pro -  Bug Report
+# Magica -  Bug Report
 
 ## Issues
 
@@ -89,18 +89,5 @@ Several chats show multiple workflow steps producing identically labelled output
 
 The agent browsed external URLs (Google Search Central, Ahrefs, Zendesk) that were not referenced or requested in the task prompt. The tasks only involved user-uploaded files. Unsolicited external browsing is unexpected behavior that could introduce unverified data into agent outputs.
 
----
 
 
-<!-- 
-
-## Observations
-
-- Preview rendering failure is **systemic** — not isolated to one chat or artifact type
-- Tool → output type mismatches appear in **3 of 4 chats**, suggesting a workflow orchestration issue
-- Generated code files and uploaded files are **inaccessible** from multiple surfaces (Files modal, Code tab)
-- No chat produced a **fully functional end-to-end artifact** during this review session
-
----
-
-*Report prepared as part of Magica Agent Pro QA review session.* -->
